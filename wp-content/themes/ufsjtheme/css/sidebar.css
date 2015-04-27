@@ -1,0 +1,105 @@
+/* Topo da Barra Lateral*/
+
+#sidebar-header {
+	border: none;
+	width: 200px;
+	height: 148px;
+	margin: 0px auto;
+	background: url("../images/sidebar-header-bg.png");
+	padding-top: 1px;
+}
+#sidebar-header a{
+	border: none;	
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+/**********************************************/
+
+/* Conteúdo da Barra Lateral */
+
+#sidebar {
+	letter-spacing: 0.05em;
+	width: 200px;
+	height: auto;
+	float: left;
+	border: none;
+	font-size: 0.9em;
+	background: url("../images/sidebar-bg.png");
+}
+
+#sidebar-menu {
+	border: none;
+	overflow: hidden;
+}
+
+.sidebar-category {
+	margin: 0px 0px 0px 2px;
+	border: none;
+}
+.sidebar-category2 {
+	margin: 0px 0px 0px 2px;
+	border: none;
+}
+
+.sidebar-category span {
+	background:  #fff url("../images/sidebar-menu-title.png") bottom left no-repeat;
+	font: 1.2em Arial;
+	padding: 7px 8px 5px 11px ;
+	color: #666;
+	display: block;
+	letter-spacing: 1px;
+}
+.sidebar-category2 span {
+	background:  #fff url("../images/sidebar-menu-title.png") bottom left no-repeat;
+	font: 1.2em Arial;
+	padding: 7px 8px 5px 11px ;
+	color: #666;
+	display: block;
+	letter-spacing: 1px;
+}
+
+.sidebar-category  p{
+	background:  url("../images/sidebar-category.png") no-repeat;
+	margin: 0px 1px 0px 2px;
+	padding: 1px 0px 0px 0px;
+}
+.sidebar-category2  p{
+	background:  url("../images/sidebar-category.png") no-repeat;
+	margin: 0px 1px 0px 2px;
+	padding: 1px 0px 0px 0px;
+}
+
+.sidebar-category  a {
+	display: block;
+	color: #FFF;
+	padding: 4px 15px 5px 20px;
+	border-bottom: 1px solid #aaa;
+	/*text-shadow: 0px 1px 3px #000;*/
+	overflow: hidden;
+}
+.sidebar-category2  a {
+	display: block;
+	color: #666;
+	overflow: hidden;
+}
+
+.sidebar-category a:hover {
+	background: #b62100 url("../images/sidebar-selected-menu.png") top left no-repeat;
+	color: #fff;
+}
+/*
+.sidebar-category2 a:hover {
+	background: #b62100 url("../images/sidebar-selected-menu.png") top left no-repeat;
+	color: #fff;
+}
+*/
+
+#sidebar-footer {
+	border: none;
+	width: 200px;
+	height: 20px;
+}

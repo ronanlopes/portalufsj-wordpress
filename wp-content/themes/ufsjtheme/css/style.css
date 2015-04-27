@@ -1,0 +1,99 @@
+/*
+Theme Name: UFSJ Template
+Theme URI: http://www.ufsj.edu.br.com/
+Description: Template WordPress para proposta de implementação do portal da Universidade Federal de Sâo João del-Rei utilizando o SGC.
+Author: Ronan Lopes
+Version: 1.0
+Tags: ufsj são joão del rei federal university accessibility
+
+Like WordPress, this work is released under GNU General Public License, version 2 (GPL).
+ 
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ */
+
+html{margin:0px;}
+body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;outline:0;vertical-align:baseline;margin:0;padding:0;}
+:focus{outline:0;}
+ol,ul{list-style:none;}
+table{border-collapse:separate;border-spacing:0;}
+caption,th,td{font-weight:normal;text-align:left;}
+blockquote:before,blockquote:after,q:before,q:after{content:"";}
+i,em{font-style:italic;}
+b,strong{font-weight:bold;}
+small{font-size:10px;}
+big{font-size:16px;}
+a img{border:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+h1,h2,h3,h4,h5,h6{font-weight:bold;}
+a:link,a:visited{color:#0066cc;text-decoration:none;outline:0;}
+a:hover,a:active{color:#0055a9;text-decoration:none;outline:0;}
+body{background:#B3B3B3;font:normal 13px/150% Arial, Helvetica, sans-serif;color:#363636;}
+ 
+
+#redes-sociais {
+    border: medium none;
+    padding: 4px 10px 0px;
+    display: inline-block;
+    position: relative;
+    margin: 2px;
+    vertical-align: top;
+}
+
+
+
+#nav{
+width:300px;
+}
+ 
+#nav li{
+margin-right:30px;
+}
+
+#corpo{
+margin:20px auto;
+width:960px;
+background:#fff;
+}
+ 
+#conteudo{
+width:940px;
+margin:10px;
+float:left;
+}
+
+#artigos{
+width:630px;
+float:right;
+}
+ 
+#noticiaprincipal{
+width:630px;
+margin-bottom:30px;
+float:right;
+}
+ 
+#noticiaprincipal h1{
+font-size:20px;
+margin-bottom:10px;
+}
+ 
+#noticiaprincipal h2{
+font-size:16px;
+margin-bottom:10px;
+}
+ 
+#noticiaprincipal p{
+margin-bottom:10px;
+}
+ 
+#sidebar{
+width:300px;
+float:left;
+}
+ 
+#footer{
+width:940px;
+margin:10px;
+font-size:11px;
+text-align:center;
+}

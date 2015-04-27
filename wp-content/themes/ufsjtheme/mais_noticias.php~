@@ -1,0 +1,54 @@
+<?php 
+include('wp-load.php');
+get_header(); ?>
+                      <div id="content-middle">	
+                        <div id="content-top">
+                            <div id="home-box1">
+                                
+								<!-- conteudo -->
+                                <span id="content-start"></span>
+                                <div id="home-box-container">
+                                    <div id="home-box-content">
+
+                                        <div id="home-subbox-noticias">                                        
+                                            <div id="home-subbox-bottom-noticias">
+	                                            <p class="titulo-int" align="left"><strong>Mais notícias</strong></p>
+
+                                                <ul>
+						    <?php while (have_posts()){
+								the_post();?>
+								<li><span class="date"><?php the_date();?> </span><a class="title" href="<?php the_permalink();?>"> <?php the_title();?></a> </li>
+						<?php } ?>
+
+						</ul>
+                                                
+   	                                            <p>Página 1 de 16<br> Total de registros encontrados: 601<br><br><< Anterior &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>[1]</b>&nbsp;&nbsp;&nbsp;<a href='mais_noticias.php?pagina=2'>2</a>&nbsp;&nbsp;<a href='mais_noticias.php?pagina=3'>3</a>&nbsp;&nbsp;<a href='mais_noticias.php?pagina=4'>4</a>&nbsp;&nbsp;<a href='mais_noticias.php?pagina=5'>5</a>&nbsp;&nbsp;<a href='mais_noticias.php?pagina=6'>6</a>&nbsp;&nbsp;<a href='mais_noticias.php?pagina=7'>7</a>&nbsp;&nbsp;<a href='mais_noticias.php?pagina=8'>8</a>&nbsp;&nbsp;<a href='mais_noticias.php?pagina=9'>9</a>&nbsp;&nbsp;<a href='mais_noticias.php?pagina=10'>10</a>&nbsp;&nbsp;<a href='mais_noticias.php?pagina=11'>11</a>&nbsp;&nbsp;<a href='mais_noticias.php?pagina=12'>12</a>&nbsp;&nbsp;<a href='mais_noticias.php?pagina=13'>13</a>&nbsp;&nbsp;<a href='mais_noticias.php?pagina=14'>14</a>&nbsp;&nbsp;<a href='mais_noticias.php?pagina=15'>15</a>&nbsp;&nbsp;<a href='mais_noticias.php?pagina=16'>16</a>&nbsp;<a href='mais_noticias.php?pagina=2'><b>&nbsp;&nbsp; Próximo</b> >></a></p>
+                                            </div>
+                                        </div>
+                               			                                    </div>
+                                    </span><div id="home-box-bottom"></div>
+                                </div>
+                                
+                                <div id="content-footer">
+	                                                                    <div id="c-footer-info">
+                                        <div id="c-f-info-top"></div>
+                                        <div id="c-f-info-middle">
+                                            <div id="c-f-info-left">Unidade informadora responsável: <br>ASCOM</div>
+                                            <div id="c-f-info-right">Última atualização:<br> 01/11/2014</div>
+                                        </div>
+                                        <div id="c-f-info-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+    
+                </div>
+                    
+            </div> <!-- Submain -->
+            <div id="main-bottom"></div>
+        </div> 
+    </div> <!-- Main -->
+
+<?php get_footer(); ?>

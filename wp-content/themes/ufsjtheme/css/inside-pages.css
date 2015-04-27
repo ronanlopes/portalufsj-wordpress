@@ -1,0 +1,360 @@
+/******* Estilo das Páginas Internas *******/
+
+
+img.alignright {float:right; margin:0 0px 5px 20px}
+img.alignleft {float:left; margin:0 20px 5px 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto; margin-bottom: 5px;}
+a img.alignright {float:right; margin:0 0px 5px 20px}
+a img.alignleft {float:left; margin:0 20px 5px 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto; margin-bottom: 5px;}
+
+/*** Rodapé do Conteúdo (info e link para impressão) ***/
+#content-footer {
+	width: auto;
+	margin: auto;
+	border: none;
+	margin-top:15px;
+	text-align:center;
+}
+
+a#c-footer-print {
+	background: url("../images/content-print.png");
+	height:53px;
+	width:52px;
+	display: inline-block;
+	margin:0px 3px 0px 0px;
+	border: none;
+	font-size: 0px;
+	vertical-align: middle;
+}
+
+a:hover#c-footer-print {
+	background: url("../images/content-print.png") bottom left;
+}
+
+#c-footer-info {
+	display: inline-block;
+	width: 446px;
+	border: none;
+	vertical-align: middle;
+	border: none;
+}
+
+#c-footer-info {
+	display: inline-block;
+	width: 446px;
+}
+
+#c-f-info-top {
+	width: 446px; 
+	background: url("../images/rodape-bg.png");
+	height: 10px;
+	border: none;
+}
+
+#c-f-info-middle {
+	width: 446px; 
+	background: url("../images/rodape-bg.png") top right;
+	border: none;
+	font: 11px Arial;
+	color:  #444;
+	text-align: center;
+}
+
+#c-f-info-left {
+	display: inline-block;
+	width: 200px;
+	border: none;
+	border-right: 1px solid #ccc;
+	padding: 0px 10px;
+	min-height: 30px;
+	vertical-align: middle;
+}
+
+#c-f-info-right {
+	border: none;
+	display: inline-block;
+	width: 200px;
+	padding: 0px 10px;
+	min-height: 30px;
+	vertical-align: middle;
+}
+
+#c-f-info-bottom {
+	width: 446px; 
+	background: url("../images/rodape-bg.png") bottom left;
+	height: 13px;
+	border: none;
+}
+
+/* CSS PAGINAS INTERNAS */
+#menu-inte {
+	border:none; /*5px solid #ccc;*/
+	padding-left:17px;
+	border:none;
+}
+
+
+#menu-int-top{
+	background: url("../images/int-menu.png") right top;
+	width: 710px;
+	height: 10px;
+	border:none;
+}
+#menu-int-middle{
+	background: #b42200;
+	width: 710px;
+	padding:0px 0px;
+	border:none;
+	font: 13.5px Arial;
+}
+
+#menu-int-bottom {
+	background: url("../images/int-menu.png") left bottom;
+	width: 710px;
+	height: 10px;
+	margin-bottom:20px;
+	border:none;
+}
+
+.submenus{
+	color: #fee;
+	border:none;
+	text-decoration: none;
+	padding:10px;
+	line-height: 20px;
+	margin: 0px;
+	background-color: #B42200;
+	border-radius: 10px;
+}
+.submenus a{
+	color: #fee;
+	padding: 0px 0px;
+	display: inline-block;
+	margin: 0px 12px;
+	border:none;
+}
+/*.submenus-link{
+	color: #fee;
+	font: 16.5px Arial;
+	padding: 0px 0px;
+	display: inline-block;
+	margin: 0px 15px;
+	border:none;
+}*/
+
+.submenus a:hover{
+	color: #000;
+	border:none;
+}
+
+#box-image-cult {
+	background: url("../images/logocentrocult.gif");
+	height: 350px;
+	width: 152px;
+	display: inline-block;
+	float: left;
+	position: relative;
+	border: none;
+}
+.titulo-int {
+	font: 12px Arial; /* 20 */
+	border:none;
+}
+
+.titulo-int a:link {
+	text-decoration: none;
+	color: #0000ff;
+}
+.titulo-int a:visited {
+	text-decoration: none;
+	color: #0000ff;
+}
+.titulo-int a:hover {
+	text-decoration: none;
+	color: #0000ff;
+}
+.titulo-int a:active {
+	text-decoration: none;
+	color: #0000ff;
+}
+
+.titulo-int2 {
+	font: 14px Arial; /* 20 */
+	border:none;
+	font-weight:bold;
+}
+
+span.barra-menus{
+	border-right: 2px solid;
+}
+
+.rodape-texto{
+	border:none;
+}
+.rodape-banner{
+	background:white;
+	border:none;
+}
+.banner-script{
+	border:none;
+}
+#rodape-b-left{
+	background: url("../images/rodape-b-bg.png") right top;
+	/*width: 710px;
+	height: 10px;*/
+	border:none;
+}
+#rodape-b-middle{
+	background: #b42200;
+	/*width: 680px;*/
+	padding:0px 15px;
+	border:none;
+	
+}
+#rodape-b-right {
+	background: url("../images/rodape-b-bg.png") left bottom;
+	/*width: 710px;
+	height: 10px;*/
+	border:none;
+	margin-bottom:20px;
+}
+#texto-int{
+	font: 13px Arial;
+	margin-left:15px;
+	margin-right:15px;
+	border:none;
+}
+
+#box{
+	border: none;
+	/*text-shadow: 1px 2px 6px #200;*/
+	text-align: left;
+	z-index: 10000;
+	position: relative;
+}
+
+#box-left {
+	background: url("../images/box-bg.png") left -856px no-repeat;
+	margin-left: 15px;
+	border: none;
+}
+
+#box-right {
+	background: url("../images/box-bg.png") right 0px no-repeat;
+	margin-left: 12px;
+	margin-right: 15px;
+	border: none;
+}
+#box-bottom-left {
+	background: url("../images/box-bg.png") left -1746px no-repeat;
+	border: none;
+	margin-left: 15px;
+}
+
+#box-bottom-right {
+	background: url("../images/box-bg.png") right -1732px no-repeat;
+	margin-left: 12px;
+	margin-right: 15px;	
+	border: none;
+}
+
+#box-bottom {
+	background: url("../images/box-bg.png") center -1760px repeat-x;
+	margin-right: 12px;
+	height: 14px;
+	border: none;
+}
+
+#box-content{
+	/*background:#FFF url("../images/box-bg.png") center -1774px repeat-x;*/
+	margin-right: 12px;
+	border: none;
+	min-height: 750px;
+	color: #000;
+	font: 1.2em Arial;
+	overflow: hidden;
+	padding-left: 15px;
+	padding-right: 1%;
+}
+
+#box-content h1 {
+	margin: 20px 30px 20px 5px;
+	display: block;
+	clear: both;
+	text-decoration: none;
+	font: "1.5em Arial normal";
+	/*text-shadow: 1px 2px 6px #200;*/
+}
+
+#box-content p {
+	line-height: 1.5em;
+	padding: 0px;
+	margin: 5px 0px 10px 0px;
+}
+#tel-lis-nam{
+	font: 1.0em Arial;
+	height:auto; 
+	width:280px;
+	padding:0px;
+	float:left;
+	margin:0px 2px;
+	color: #000;
+}
+#tel-lis-set{
+	padding: 0px;
+	height:auto;
+	width:2px;
+	float:left;
+	margin:0px 2px 0px 90px;
+	color: #000;
+	font: 13px Arial;
+}
+#tel-lis-fone{
+	color: #000;
+	font: 1.0em Arial;
+	padding: 0px;
+	height:auto;
+	width:2px;
+	float:left;
+	margin:0px 2px 0px 90px;
+}
+#tel-lis-fax{
+	color: #000;
+	font: 1.0em Arial;
+	padding: 0px;
+	height:auto;
+	width:2px;
+	float:left;
+	margin:0px 2px 0px 120px;
+}
+.titulo-list{
+	color: #000;
+	font: 2.0em Arial;
+}
+.tit-int{
+	color: rgb(170, 0, 0);
+	font: 1.2em Arial;
+}
+span.tit-int p{
+	color: black;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.fale-conosco fieldset {
+	border: 1px solid rgb(170, 0, 0);
+	margin-top: 15px;
+	}
+	 
+.fale-conosco fieldset li {
+	margin-left: 15px;
+}
+
+.fale-conosco fieldset legend {
+	font-weight: bold;
+}
+
+.fale-conosco fieldset p {
+	margin-left: 15px;
+}

@@ -1,0 +1,68 @@
+<?php get_header(); ?>
+      <div id="content-middle">	
+					    <div id="interna-middle"></div>
+                        <div id="content-top">
+                            <div id="home-box1">
+
+                                <!-- conteudo -->
+                                <span id="content-start"></span>
+                                <div id="home-box-container">
+                                    <div id="home-box-content">
+
+                                        <div id="home-subbox-noticias">                                        
+                                            <div id="home-subbox-bottom-noticias">
+
+                        <span class="text-title"><br>
+                           <span id="txt">
+                               <h1 id='titulonoticia'><a href="#content" accesskey="c"></a>Desculpe! Não foi possível localizar a página...</h1>
+                           </span>
+                        </span>
+
+                                            </div> <!-- home-subbox-bottom-noticias -->
+                                        </div> <!-- home-subbox-noticias -->
+                                                                               
+                                    </div> <!-- home-box-content -->
+                                    </span><div id="home-box-bottom"></div>
+                            
+                                </div> <!-- home-box-container -->
+                            </div> <!-- home-box1 -->
+                        </div> <!-- content-top -->
+
+                        <div id="home-subbox">
+                            <div id="home-subbox-bottom">
+                                <ul id="home-subbox-news">
+                                 <?php query_posts('showposts=5'); ?>
+					<?php for($i=0;$i<5;$i++){
+							if (have_posts()){
+								the_post();?>
+								<li><span class="date"><?php echo get_the_date();?> </span><a class="title" href="<?php the_permalink();?>"> <?php the_title();?></a> </li>
+							<?php 
+							}
+					}
+				    ?>
+                                    <br>
+                                </ul>
+                                <a href="<?php echo get_site_url(); ?>/mais_noticias.php" class="more-news">mais notícias</a>	
+                            </div>
+                        </div>
+
+						<br>
+                        <div id="content-footer">
+                                                        <div id="c-footer-info">
+                                <div id="c-f-info-top"></div>
+                                <div id="c-f-info-middle">
+                                    <div id="c-f-info-left">Unidade informadora responsável: <br>ASCOM</div>
+                                    <div id="c-f-info-right">Data da notícia:<br> 
+										                                    </div>
+                                </div>
+                                <div id="c-f-info-bottom"></div>
+                            </div>
+                        </div>
+
+                    </div> <!-- content-middle -->
+                </div> <!-- content -->
+            </div> <!-- submain -->
+            <div id="main-bottom"></div>
+        </div> <!-- main-canvas -->
+    </div> <!-- main -->
+<?php get_footer(); ?>

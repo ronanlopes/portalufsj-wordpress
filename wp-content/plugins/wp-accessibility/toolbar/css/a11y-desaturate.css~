@@ -1,0 +1,17 @@
+body {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: gray;
+}
+
+@-moz-document url-prefix() {
+.a11y-toggle-grayscale {
+display:none !important;
+}
+.a11y-toggle-fontsize { margin-top: -25px; }
+}
+  

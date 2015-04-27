@@ -1,0 +1,56 @@
+/* Rodapé - Refeito */
+
+#footer {
+	margin: 0px;
+	background: url("http://www.ufsj.edu.br/portal2-images/footer-bg.png") bottom left repeat-x;	
+	border: none;
+	padding: 1px;
+}
+
+#footer-info {
+	width: 880px;
+	margin: 20px auto 40px auto;
+	border: none;
+}
+
+#footer-info-top {
+	background: url("http://www.ufsj.edu.br/portal2-images/footer-info-bg.png") 0px -14px no-repeat;	
+	border: none;
+	width: 860px;
+	padding: 10px 10px 0px 10px;
+	min-height: 60px;
+}
+
+#footer-info-middle {
+	background: url("http://www.ufsj.edu.br/portal2-images/footer-info-bg.png") top right repeat-y;
+	border: none;
+}
+
+#footer-info-middle p{
+	font: 13px Arial;
+	color: #666;
+	padding: 5px 10px;
+	border: none;
+	margin: 0px;
+}
+
+#footer-info-banner {
+	background: white;
+	border: none;
+	margin: auto 15px;
+	text-align:center;
+	width: 830px;
+	padding: 5px 0px;
+}
+
+#footer-info-bottom {
+	background: url("http://www.ufsj.edu.br/portal2-images/footer-info-bg.png") top left no-repeat;	
+	border: none;
+	width: 880px;
+	height: 14px;
+	margin: 0px;
+}
+
+.banner_rodape{
+	padding: 9px;
+}
